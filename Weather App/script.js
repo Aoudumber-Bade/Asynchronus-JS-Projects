@@ -27,8 +27,9 @@ async function myApi(cit){
 
         cityName.innerHTML = city
 
-        city.textContent = result.location.name;
-        city2.textContent = result.location.name;
+        city.textContent = city;
+        city2.textContent = city;
+        city10.textContent = city;
         region.textContent = result.location.region;
         country.textContent = result.location.country;
 
